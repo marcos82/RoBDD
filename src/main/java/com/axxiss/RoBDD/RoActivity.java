@@ -1,13 +1,15 @@
 package com.axxiss.RoBDD;
 
 import android.app.Activity;
-import android.util.Log;
+
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 /**
  * @author Alexis Mas - alexismas@about.me
  */
 public class RoActivity {
-    private static final String TAG = "RoActivity";
+    private final static Logger LOGGER = Logger.getLogger(RoActivity.class.getName());
 
     /**
      * Creates an Activity from it class name.
@@ -17,24 +19,25 @@ public class RoActivity {
      */
     public static Activity createActivity(String activityName) {
         Activity activity = null;
+        Class<?> clazz;
+
         try {
-            activity = (Activity) Class.forName(activityName).newInstance();
+            clazz = Class.forName(activityName);
+
+            if (clazz != null) {
+                activity = (Activity) clazz.newInstance();
+            }
+
         } catch (ClassNotFoundException e) {
-            Log.e(TAG, activityName + " is not a class.");
-            e.printStackTrace();
+            LOGGER.log(Level.SEVERE, activityName + " is not a class.");
         } catch (InstantiationException e) {
-            Log.e(TAG, activityName + " can not be instantiated");
-            e.printStackTrace();
+            LOGGER.log(Level.SEVERE, activityName + " can not be instantiated");
         } catch (IllegalAccessException e) {
-            Log.e(TAG, "Forbidden access.");
-            e.printStackTrace();
+            LOGGER.log(Level.SEVERE, "Forbidden access.");
         } catch (ClassCastException e) {
-            Log.e(TAG, activityName + " is not an Android activity.");
-            e.printStackTrace();
+            LOGGER.log(Level.SEVERE, activityName + " is not an Android activity.");
         }
 
         return activity;
     }
-
-
 }

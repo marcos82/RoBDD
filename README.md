@@ -1,6 +1,8 @@
 RoBDD
 =====
 
+[![Build Status](https://travis-ci.org/Axxiss/RoBDD.png?branch=master)](https://travis-ci.org/Axxiss/RoBDD)
+
 RoBDD stands for Robolectric BDD.
 
 RoBDD is the glue between [Gherkin][3] and [Robolectric][1]. Providing developers a tool to create Android apps
