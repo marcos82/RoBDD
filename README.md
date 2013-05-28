@@ -11,25 +11,39 @@ following BDD principles without the need to run the test on an AVD.
 To avoid using this set of predefined steps wrongly, please take a look at the article  [The training wheels came off][4]
 
 
+Current status
+==============
+
+Currently only some stepsdefs are defined, without Gherkin support. I intend to
+add support to Gherkin in a future, right now I need to find out how to run
+both cucumber and robolectric runners on the same test.
+
+So if you know gow to do it, please get in touch.
+
+
 Installation
 ============
 
-TODO: add instructions
+1. Clone the repo.
+2. Add it as a dependency into your project.
+3. Start testing.
+
 
 Usage
 =====
 
-TODO: specify test command
+Take a look to steps folder under test.
 
 
 Contribute
 ==========
 
-If you missing a feature or a current feature is not working correctly, you can contribute by adding/fixing it. You just
-need to follow a quite simple guidelines:
+If you missing a feature or a current feature is not working correctly, you can
+contribute by adding/fixing it. You just need to follow a quite simple
+guidelines:
 
 1. Comments: Relevant comments must be added.
-2. Code style: Please follow Android code style.
+2. Code style: Follow Android code style.
 3. Test: All PRs must have tests and obviously test must pass.
 
 

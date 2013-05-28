@@ -23,18 +23,16 @@
     </option>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0c2da8f-ccd1-460e-b9c3-13f0ca13c967" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/axxiss/RoBDD/steps/ButtonStepdefs.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/axxiss/RoBDD/steps/ButtonStepdefsTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/axxiss/RoBDD/steps/ActivityStepdefsTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/axxiss/RoBDD/steps/ActivityStepdefsTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/axxiss/RoBDD/steps/ViewStepdefs.java" afterPath="$PROJECT_DIR$/src/main/java/com/axxiss/RoBDD/steps/ViewStepdefs.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/axxiss/RoBDD/steps/ViewStepdefsTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/axxiss/RoBDD/steps/ViewStepdefsTest.java" />
+    <list default="true" id="f0c2da8f-ccd1-460e-b9c3-13f0ca13c967" name="Default" comment="test method names refactored">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/axxiss/RoBDD/steps/ButtonStepdefs.java" afterPath="$PROJECT_DIR$/src/main/java/com/axxiss/RoBDD/steps/ButtonStepdefs.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/axxiss/RoBDD/steps/ButtonStepdefsTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/axxiss/RoBDD/steps/ButtonStepdefsTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="RoBDD.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/travis.yml" changelist="f0c2da8f-ccd1-460e-b9c3-13f0ca13c967" time="1369128705859" ignored="false" />
-    <file path="/Dummy.txt" changelist="f0c2da8f-ccd1-460e-b9c3-13f0ca13c967" time="1369729945165" ignored="false" />
+    <file path="/Dummy.txt" changelist="f0c2da8f-ccd1-460e-b9c3-13f0ca13c967" time="1369731267482" ignored="false" />
     <file path="/.gitignore" changelist="f0c2da8f-ccd1-460e-b9c3-13f0ca13c967" time="1369125545959" ignored="false" />
     <file path="/RoActivity.java" changelist="f0c2da8f-ccd1-460e-b9c3-13f0ca13c967" time="1369641382618" ignored="false" />
     <file path="/fragment.java" changelist="f0c2da8f-ccd1-460e-b9c3-13f0ca13c967" time="1369648874407" ignored="false" />
@@ -72,8 +70,10 @@
     <file path="/a.dummy" changelist="f0c2da8f-ccd1-460e-b9c3-13f0ca13c967" time="1369727302691" ignored="false" />
     <file path="/activity_main.xml" changelist="f0c2da8f-ccd1-460e-b9c3-13f0ca13c967" time="1369727827324" ignored="false" />
     <file path="$PROJECT_DIR$/res/layout/activity_main.xml" changelist="f0c2da8f-ccd1-460e-b9c3-13f0ca13c967" time="1369729368067" ignored="false" />
-    <file path="/ButtonStepdefsTest.java" changelist="f0c2da8f-ccd1-460e-b9c3-13f0ca13c967" time="1369730401392" ignored="false" />
+    <file path="/ButtonStepdefsTest.java" changelist="f0c2da8f-ccd1-460e-b9c3-13f0ca13c967" time="1369730805692" ignored="false" />
     <file path="$PROJECT_DIR$/build/test-results/TEST-com.axxiss.RoBDD.steps.ViewStepdefsTest.xml" changelist="f0c2da8f-ccd1-460e-b9c3-13f0ca13c967" time="1369730424951" ignored="false" />
+    <file path="/ButtonStepdefs.java" changelist="f0c2da8f-ccd1-460e-b9c3-13f0ca13c967" time="1369730704067" ignored="false" />
+    <file path="/README.md" changelist="f0c2da8f-ccd1-460e-b9c3-13f0ca13c967" time="1369731254591" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,21 +156,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ViewStepdefsTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/axxiss/RoBDD/steps/ViewStepdefsTest.java">
+      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="33" selection-start="771" selection-end="771" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ButtonStepdefs.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/axxiss/RoBDD/steps/ButtonStepdefs.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="29" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0">
+            <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -179,16 +168,18 @@
       <file leaf-file-name="ButtonStepdefsTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/axxiss/RoBDD/steps/ButtonStepdefsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="186" selection-end="186" vertical-scroll-proportion="0.32554257">
-              <folding />
+            <state line="27" column="16" selection-start="582" selection-end="582" vertical-scroll-proportion="0.5541872">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ActivityStepdefs.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/axxiss/RoBDD/steps/ActivityStepdefs.java">
+      <file leaf-file-name="ActivityStepdefsTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/axxiss/RoBDD/steps/ActivityStepdefsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="60" selection-start="1654" selection-end="1654" vertical-scroll-proportion="0.0">
+            <state line="41" column="10" selection-start="1072" selection-end="1072" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -348,7 +339,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/com/axxiss/RoBDD/app/SampleActivityTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/axxiss/RoBDD/RoActivityTest.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/com/axxiss/RoBDD/RoActivity.java" />
@@ -358,12 +348,13 @@
         <option value="$PROJECT_DIR$/src/test/java/com/axxiss/RoBDD/app/MainActivity.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/axxiss/RoBDD/steps/ActivityStepdefs.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/axxiss/RoBDD/RoView.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/axxiss/RoBDD/steps/ButtonStepdefs.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/axxiss/RoBDD/steps/ViewStepdefs.java" />
         <option value="$PROJECT_DIR$/build/reports/tests/com.axxiss.RoBDD.steps.ViewStepdefsTest.html" />
         <option value="$PROJECT_DIR$/src/test/java/com/axxiss/RoBDD/steps/ViewStepdefsTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/axxiss/RoBDD/steps/ActivityStepdefsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/axxiss/RoBDD/steps/ButtonStepdefs.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/axxiss/RoBDD/steps/ButtonStepdefsTest.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -535,78 +526,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RoBDD" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RoBDD" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RoBDD" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RoBDD" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RoBDD" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RoBDD" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RoBDD" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="steps" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -861,12 +780,16 @@
       <created>1369729977108</created>
       <updated>1369729977108</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="test method names refactored">
+      <created>1369730502488</created>
+      <updated>1369730502488</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-4" width="1368" height="773" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280303" sideWeight="0.69050163" order="3" side_tool="false" content_ui="tabs" />
@@ -884,8 +807,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2977273" sideWeight="0.672" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3088" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2977273" sideWeight="0.6912" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3088" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="99" y="96" width="1722" height="885" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -935,7 +858,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="stepdef iClick" />
+    <option name="LAST_COMMIT_MESSAGE" value="test method names refactored" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -953,6 +876,7 @@
     <MESSAGE value="iShouldSee added" />
     <MESSAGE value="refactored iShouldSee to findViewByText" />
     <MESSAGE value="stepdef iClick" />
+    <MESSAGE value="test method names refactored" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -962,11 +886,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///opt/android-sdk-linux/sources/android-17/android/widget/Button.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="13" selection-start="3805" selection-end="3805" vertical-scroll-proportion="0.33222038" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/axxiss/RoBDD/RoActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="22" selection-start="766" selection-end="766" vertical-scroll-proportion="0.29883137">
@@ -1023,34 +942,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/axxiss/RoBDD/RoActivityTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="13" selection-start="394" selection-end="394" vertical-scroll-proportion="0.26108375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/axxiss/RoBDD/steps/ViewStepdefs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="27" selection-start="415" selection-end="415" vertical-scroll-proportion="-0.6625616">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/axxiss/RoBDD/steps/ButtonStepdefs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="29" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/axxiss/RoBDD/steps/ActivityStepdefs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="60" selection-start="1654" selection-end="1654" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/reports/tests/com.axxiss.RoBDD.steps.ViewStepdefsTest.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="69" column="7" selection-start="1526" selection-end="1526" vertical-scroll-proportion="0.22181146">
@@ -1058,26 +949,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/axxiss/RoBDD/steps/ActivityStepdefsTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/axxiss/RoBDD/steps/ViewStepdefs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="21" selection-start="876" selection-end="876" vertical-scroll-proportion="0.6761269">
+        <state line="30" column="37" selection-start="712" selection-end="712" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/axxiss/RoBDD/steps/ViewStepdefsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="33" selection-start="771" selection-end="771" vertical-scroll-proportion="0.0">
+        <state line="19" column="0" selection-start="473" selection-end="655" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/axxiss/RoBDD/steps/ButtonStepdefs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="5" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/axxiss/RoBDD/steps/ActivityStepdefs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="60" selection-start="1654" selection-end="1654" vertical-scroll-proportion="0.8998331">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/axxiss/RoBDD/RoActivityTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="13" selection-start="394" selection-end="394" vertical-scroll-proportion="0.22537562">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/axxiss/RoBDD/steps/ActivityStepdefsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="10" selection-start="1072" selection-end="1072" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/axxiss/RoBDD/steps/ButtonStepdefsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="186" selection-end="186" vertical-scroll-proportion="0.32554257">
-          <folding />
+        <state line="27" column="16" selection-start="582" selection-end="582" vertical-scroll-proportion="0.5541872">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
