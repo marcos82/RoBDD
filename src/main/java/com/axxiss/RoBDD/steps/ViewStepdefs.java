@@ -16,7 +16,6 @@ import static org.junit.Assert.assertTrue;
  * @author Alexis Mas - alexismas@about.me
  */
 public class ViewStepdefs {
-    private static final String TAG = "ViewStepdefs";
     /**
      * Activity where views are placed.
      */

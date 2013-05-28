@@ -26,14 +26,14 @@ public class ActivityStepdefsTest {
     }
 
     @Test
-    public void iLaunchActivityTest() {
+    public void testILaunchActivity() {
         mSteps.iLaunchActivity(MainActivity.CLASS_NAME);
         assertTrue("Activity not launched.",
                 mSteps.getActivity() instanceof MainActivity);
     }
 
     @Test
-    public void currentActivityShouldBeTest() {
+    public void testCurrentActivityShouldBe() {
         mSteps.iLaunchActivity(MainActivity.CLASS_NAME);
 
         mSteps.getActivity().findViewById(R.id.button_new_activity)

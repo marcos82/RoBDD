@@ -12,7 +12,6 @@ import org.robolectric.RobolectricTestRunner;
  */
 @RunWith(RobolectricTestRunner.class)
 public class ViewStepdefsTest {
-    private static final String TAG = "ViewStepdefsTest";
     ViewStepdefs mViewSteps;
     ActivityStepdefs mActivitySteps;
 
@@ -24,12 +23,12 @@ public class ViewStepdefsTest {
     }
 
     @Test
-    public void iShouldSeeTest() {
+    public void testIShouldSee() {
         mViewSteps.iShouldSee(MainActivity.TEXT_BUTTON);
     }
 
     @Test
-    public void iClickTest() {
+    public void testIClick() {
         mViewSteps.iClick(MainActivity.TEXT_BUTTON);
         mActivitySteps.currentActivityShouldBe(IntentActivity.CLASS_NAME);
     }
