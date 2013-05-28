@@ -8,6 +8,7 @@ import cucumber.api.java.en.When;
 import org.robolectric.Robolectric;
 
 import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertTrue;
 
 /**
  * View stepsdefs.
@@ -38,15 +39,19 @@ public class ViewStepdefs {
      */
     @Then("^I should see \"([^\"]*)\"$")
     public void iShouldSee(String text) {
-        View view = Robolectric.shadowOf(mActivity).getContentView();
+        final View v = Robolectric.shadowOf(mActivity).getContentView();
+        final View view = RoView.findViewByText(text, v);
 
-        View v = RoView.findViewByText(text, view);
-
-        assertNotNull("Text not found", v);
+        assertNotNull("Text not found", view);
     }
 
     @When("^I click \"([^\"]*)\"$")
-    public void iClick(String view) {
+    public void iClick(String text) {
+        final View v = Robolectric.shadowOf(mActivity).getContentView();
+        final View view = RoView.findViewByText(text, v);
 
+        assertNotNull("View not found", view);
+
+        assertTrue("No listener defined.", view.callOnClick());
     }
 }
