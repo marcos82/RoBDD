@@ -29,19 +29,22 @@ public class RoView {
     }
 
     /**
-     * Check if a text is shown in a specific view.
+     * Search on the view hierarchy
      *
-     * @param text The text.
-     * @param view The view.
-     * @return true if view's text contains the string.
+     * @param text the text.
+     * @param view the view.
+     * @return the view containing the text, otherwise null.
      */
-    public static boolean iShouldSee(String text, View view) {
+    public static View findViewByText(String text, View view) {
         String currentText = getInnerText(view);
 
         if (currentText != null) {
-            return currentText.contains(text);
+            if (currentText.contains(text)) {
+                return view;
+            } else {
+                return null;
+            }
         }
-
 
         int childCount;
 
@@ -51,13 +54,13 @@ public class RoView {
             childCount = layout.getChildCount();
 
             for (int i = 0; i < childCount; i++) {
-                if (iShouldSee(text, layout.getChildAt(i))) {
-                    return true;
+                View v = findViewByText(text, layout.getChildAt(i));
+                if (v != null) {
+                    return v;
                 }
             }
         }
-
-        return false;
+        return null;
     }
 
 }

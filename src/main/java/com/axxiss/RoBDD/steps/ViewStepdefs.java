@@ -4,9 +4,10 @@ import android.app.Activity;
 import android.view.View;
 import com.axxiss.RoBDD.RoView;
 import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
 import org.robolectric.Robolectric;
 
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.assertNotNull;
 
 /**
  * View stepsdefs.
@@ -39,7 +40,13 @@ public class ViewStepdefs {
     public void iShouldSee(String text) {
         View view = Robolectric.shadowOf(mActivity).getContentView();
 
-        assertTrue("Text not found", RoView.iShouldSee(text, view));
+        View v = RoView.findViewByText(text, view);
+
+        assertNotNull("Text not found", v);
     }
 
+    @When("^I click \"([^\"]*)\"$")
+    public void iClick(String view) {
+
+    }
 }

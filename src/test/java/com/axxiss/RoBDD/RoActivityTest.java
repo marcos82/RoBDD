@@ -2,7 +2,7 @@ package com.axxiss.RoBDD;
 
 
 import android.app.Activity;
-import com.axxiss.RoBDD.app.SampleActivity;
+import com.axxiss.RoBDD.app.MainActivity;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.robolectric.RobolectricTestRunner;
@@ -24,7 +24,7 @@ public class RoActivityTest {
         assertNull(activityNull);
 
         Activity activityNotNull = RoActivity
-                .createActivity(SampleActivity.CLASS_NAME);
+                .createActivity(MainActivity.CLASS_NAME);
         assertNotNull(activityNotNull);
     }
 }

@@ -1,7 +1,7 @@
 package com.axxiss.RoBDD.steps;
 
-import android.app.Activity;
-import com.axxiss.RoBDD.app.SampleActivity;
+import com.axxiss.RoBDD.app.IntentActivity;
+import com.axxiss.RoBDD.app.MainActivity;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -13,21 +13,25 @@ import org.robolectric.RobolectricTestRunner;
 @RunWith(RobolectricTestRunner.class)
 public class ViewStepdefsTest {
     private static final String TAG = "ViewStepdefsTest";
-    ViewStepdefs mSteps;
+    ViewStepdefs mViewSteps;
+    ActivityStepdefs mActivitySteps;
 
     @Before
     public void setUp() {
-        ActivityStepdefs activitySteps = new ActivityStepdefs();
-        activitySteps.iLaunchActivity(SampleActivity.CLASS_NAME);
-
-        Activity activity = activitySteps.getActivity();
-
-        mSteps = new ViewStepdefs(activity);
+        mActivitySteps = new ActivityStepdefs();
+        mActivitySteps.iLaunchActivity(MainActivity.CLASS_NAME);
+        mViewSteps = new ViewStepdefs(mActivitySteps.getActivity());
     }
 
     @Test
     public void iShouldSeeTest() {
-        mSteps.iShouldSee("Sample text!");
+        mViewSteps.iShouldSee(MainActivity.TEXT_BUTTON);
+    }
+
+    @Test
+    public void iClickTest() {
+        mViewSteps.iClick(MainActivity.TEXT_BUTTON);
+        mActivitySteps.currentActivityShouldBe(IntentActivity.CLASS_NAME);
     }
 
 }

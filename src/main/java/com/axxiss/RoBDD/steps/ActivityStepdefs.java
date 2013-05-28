@@ -9,8 +9,7 @@ import cucumber.api.java.en.Then;
 import org.junit.Assert;
 import org.robolectric.Robolectric;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.*;
 
 /**
  * Activity steps definition.
@@ -40,6 +39,9 @@ public class ActivityStepdefs {
     @Given("^I launch the activity \"([^\"]*)\"$")
     public void iLaunchActivity(String activityName) {
 
+
+        mCurrentActivity = null;
+
         mCurrentActivity = RoActivity.createActivity(activityName);
 
         if (mCurrentActivity == null) {
@@ -59,16 +61,20 @@ public class ActivityStepdefs {
     public void currentActivityShouldBe(String activityName) {
         Activity activity = RoActivity.createActivity(activityName);
 
-        Intent intent = Robolectric.shadowOf(mCurrentActivity).peekNextStartedActivity();
+        Intent intent = Robolectric.shadowOf(mCurrentActivity).getNextStartedActivity();
 
         if (intent == null) {
-            assertEquals(mCurrentActivity.getClass().getName(), activity.getClass().getName());
+            assertEquals(activity.getClass().getName(), mCurrentActivity.getClass().getName());
         } else {
             ComponentName componentName = intent.getComponent();
             if (componentName != null) {
-                assertEquals(mCurrentActivity.getClass().getName(), componentName.getClassName());
+
+                if (componentName.getClassName().equals(activity.getClass().getName())) {
+                    mCurrentActivity = activity;
+                    assertTrue(true);
+                }
             } else {
-                assert false;
+                fail("Intent's component null");
             }
         }
     }
