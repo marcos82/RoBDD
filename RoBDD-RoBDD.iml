@@ -1,9 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module external.system.id="GRADLE" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
+    <facet type="android" name="Android">
+      <configuration>
+        <option name="GEN_FOLDER_RELATIVE_PATH_APT" value="/RoBDD/gen" />
+        <option name="GEN_FOLDER_RELATIVE_PATH_AIDL" value="/RoBDD/gen" />
+        <option name="MANIFEST_FILE_RELATIVE_PATH" value="/RoBDD/src/main/AndroidManifest.xml" />
+        <option name="RES_FOLDER_RELATIVE_PATH" value="/RoBDD/src/main/res" />
+        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/RoBDD/src/main/assets" />
+        <option name="LIBRARY_PROJECT" value="true" />
+        <option name="UPDATE_PROPERTY_FILES" value="true" />
+        <notImportedProperties>
+          <property>MANIFEST_FILE_PATH</property>
+          <property>RESOURCES_DIR_PATH</property>
+          <property>ASSETS_DIR_PATH</property>
+          <property>NATIVE_LIBS_DIR_PATH</property>
+        </notImportedProperties>
+      </configuration>
+    </facet>
     <facet type="android-gradle" name="Android-Gradle">
       <configuration>
-        <option name="GRADLE_PROJECT_PATH" value=":" />
+        <option name="GRADLE_PROJECT_PATH" value=":RoBDD" />
         <option name="PROJECT_ABSOLUTE_PATH" value="$MODULE_DIR$" />
         <option name="GRADLE_HOME_DIR_PATH" />
       </configuration>
@@ -11,11 +28,53 @@
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$MODULE_DIR$">
-      <excludeFolder url="file://$MODULE_DIR$/.gradle" />
-      <excludeFolder url="file://$MODULE_DIR$/build" />
+    <content url="file://$MODULE_DIR$/RoBDD">
+      <sourceFolder url="file://$MODULE_DIR$/RoBDD/build/source/r/debug" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RoBDD/build/source/aidl/debug" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RoBDD/build/source/rs/debug" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RoBDD/build/source/buildConfig/debug" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RoBDD/build/res/rs/debug" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RoBDD/build/source/r/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/RoBDD/build/source/aidl/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/RoBDD/build/source/rs/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/RoBDD/build/source/buildConfig/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/RoBDD/build/res/rs/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/RoBDD/src/debug/aidl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RoBDD/src/debug/assets" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RoBDD/src/debug/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RoBDD/src/debug/jni" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RoBDD/src/debug/rs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RoBDD/src/debug/res" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RoBDD/src/debug/resources" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RoBDD/src/main/aidl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RoBDD/src/main/assets" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RoBDD/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RoBDD/src/main/jni" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RoBDD/src/main/rs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RoBDD/src/main/res" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RoBDD/src/main/resources" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RoBDD/src/instrumentTest/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/RoBDD/src/instrumentTest/assets" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/RoBDD/src/instrumentTest/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/RoBDD/src/instrumentTest/jni" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/RoBDD/src/instrumentTest/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/RoBDD/src/instrumentTest/res" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/RoBDD/src/instrumentTest/resources" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/RoBDD/gen" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RoBDD/build" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/RoBDD/build/apk" />
+      <excludeFolder url="file://$MODULE_DIR$/RoBDD/build/assets" />
+      <excludeFolder url="file://$MODULE_DIR$/RoBDD/build/bundles" />
+      <excludeFolder url="file://$MODULE_DIR$/RoBDD/build/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/RoBDD/build/dependency-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/RoBDD/build/exploded-bundles" />
+      <excludeFolder url="file://$MODULE_DIR$/RoBDD/build/incremental" />
+      <excludeFolder url="file://$MODULE_DIR$/RoBDD/build/libs" />
+      <excludeFolder url="file://$MODULE_DIR$/RoBDD/build/manifests" />
+      <excludeFolder url="file://$MODULE_DIR$/RoBDD/build/symbols" />
+      <excludeFolder url="file://$MODULE_DIR$/RoBDD/build/tmp" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Android 4.2.2" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="org.twodividedbyzero.idea.findbugs">

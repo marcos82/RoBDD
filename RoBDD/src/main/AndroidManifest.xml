@@ -1,0 +1,15 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.axxiss.robdd"
+    android:versionCode="1"
+    android:versionName="0.3-SANPSHOT">
+
+    <uses-sdk android:minSdkVersion="7" android:targetSdkVersion="17" />
+
+    <application android:allowBackup="true"
+        android:label="@string/app_name"
+        android:icon="@drawable/ic_launcher"
+        android:theme="@style/AppTheme">
+
+    </application>
+
+</manifest>

@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/RoBDD.iml" filepath="$PROJECT_DIR$/RoBDD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RoBDD-RoBDD.iml" filepath="$PROJECT_DIR$/RoBDD-RoBDD.iml" />
     </modules>
   </component>
 </project>
