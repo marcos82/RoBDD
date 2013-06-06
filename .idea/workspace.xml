@@ -2,70 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bca98cf-7855-4a7d-9edc-1da64f028b48" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RoBDD/libs/android-support-v4.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RoBDD/gradle/wrapper/gradle-wrapper.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RoBDD/src/main/res/drawable-hdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RoBDD/src/main/res/drawable-mdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RoBDD/src/main/res/drawable-xhdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RoBDD/src/main/java/com/axxiss/robdd/steps/ActivityStepdefs.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RoBDD/src/instrumentTest/java/com/axxiss/robdd/steps/ActivityStepdefsTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RoBDD/src/main/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RoBDD/src/main/java/com/axxiss/robdd/steps/ButtonStepdefs.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RoBDD/src/instrumentTest/java/com/axxiss/robdd/steps/ButtonStepdefsTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RoBDD/src/instrumentTest/java/com/axxiss/robdd/app/IntentActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RoBDD/src/instrumentTest/java/com/axxiss/robdd/app/MainActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RoBDD/src/main/java/com/axxiss/robdd/RoActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RoBDD/src/instrumentTest/java/com/axxiss/robdd/RoActivityTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RoBDD-RoBDD.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RoBDD/src/main/java/com/axxiss/robdd/RoView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RoBDD/src/main/java/com/axxiss/robdd/steps/ViewStepdefs.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RoBDD/src/instrumentTest/java/com/axxiss/robdd/steps/ViewStepdefsTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RoBDD/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/findbugs-idea.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RoBDD/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradlew.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RoBDD/gradlew.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradlew" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RoBDD/gradlew" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/robolectric_2_1_jar_with_dependencies.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/settings.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RoBDD/src/main/res/values/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RoBDD/src/main/res/values/styles.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RoBDD/src/main/res/values-v11/styles.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RoBDD/src/main/res/values-v14/styles.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/javassist_3_14_0_GA.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/objenesis_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/robolectric_2_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/robolectric_2_0_alpha_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/robolectric_2_0_rc1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/unresolved_dependency___org_robolectric_robolectric_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/checkstyle/checkstyle.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/proguard-project.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/axxiss/RoBDD/RoActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/axxiss/RoBDD/RoView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/axxiss/RoBDD/steps/ActivityStepdefs.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/axxiss/RoBDD/steps/ButtonStepdefs.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/axxiss/RoBDD/steps/ViewStepdefs.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/resources/layout/activity_main.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/axxiss/RoBDD/RoActivityTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/axxiss/RoBDD/app/IntentActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/axxiss/RoBDD/app/MainActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/axxiss/RoBDD/steps/ActivityStepdefsTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/axxiss/RoBDD/steps/ButtonStepdefsTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/axxiss/RoBDD/steps/ViewStepdefsTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resources/features/ActivityStepdefs.feature" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RoBDD.iml" afterPath="$PROJECT_DIR$/RoBDD.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RoBDD/src/main/java/com/axxiss/robdd/steps/package-info.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_main.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RoBDD-RoBDD.iml" afterPath="$PROJECT_DIR$/RoBDD-RoBDD.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="RoBDD.iws" />
@@ -74,7 +13,7 @@
     <file path="/AndroidManifest.xml" changelist="1bca98cf-7855-4a7d-9edc-1da64f028b48" time="1370127943545" ignored="false" />
     <file path="/build.gradle" changelist="1bca98cf-7855-4a7d-9edc-1da64f028b48" time="1370186240589" ignored="false" />
     <file path="/fragment.java" changelist="1bca98cf-7855-4a7d-9edc-1da64f028b48" time="1370129102306" ignored="false" />
-    <file path="/Dummy.txt" changelist="1bca98cf-7855-4a7d-9edc-1da64f028b48" time="1370187686432" ignored="false" />
+    <file path="/Dummy.txt" changelist="1bca98cf-7855-4a7d-9edc-1da64f028b48" time="1370530665854" ignored="false" />
     <file path="/RoView.java" changelist="1bca98cf-7855-4a7d-9edc-1da64f028b48" time="1370132728699" ignored="false" />
     <file path="/a.dummy" changelist="1bca98cf-7855-4a7d-9edc-1da64f028b48" time="1370132841831" ignored="false" />
     <file path="/ViewStepdefs.java" changelist="1bca98cf-7855-4a7d-9edc-1da64f028b48" time="1370134975723" ignored="false" />
@@ -150,6 +89,11 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Alexis Mas &lt;vodkadechernobil@gmail.com" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitLogSettings">
@@ -159,217 +103,217 @@
   </component>
   <component name="GradleLocalSettings">
     <option name="availableTasks">
-      <set>
+      <list>
         <GradleTaskDescriptor>
-          <option name="description" value="Displays the Android dependencies of the project" />
-          <option name="name" value="androidDependencies" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="description" value="Assembles all variants of all applications and secondary packages." />
-          <option name="name" value="assemble" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="description" value="Assembles all Debug builds" />
-          <option name="name" value="assembleDebug" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="description" value="Assembles all Release builds" />
-          <option name="name" value="assembleRelease" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="description" value="Assembles the Test build for the Debug build" />
-          <option name="name" value="assembleTest" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="description" value="Assembles and tests this project." />
-          <option name="name" value="build" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="description" value="Assembles and tests this project and all projects that depend on it." />
-          <option name="name" value="buildDependents" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="description" value="Assembles and tests this project and all projects it depends on." />
-          <option name="name" value="buildNeeded" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="description" value="Assembles a bundle containing the library in Debug." />
-          <option name="name" value="bundleDebug" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="description" value="Assembles a bundle containing the library in Release." />
-          <option name="name" value="bundleRelease" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="description" value="Runs all checks." />
-          <option name="name" value="check" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="description" value="Deletes the build directory." />
-          <option name="name" value="clean" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="name" value="compileDebug" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="name" value="compileDebugAidl" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="name" value="compileDebugRenderscript" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="name" value="compileRelease" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="name" value="compileReleaseAidl" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="name" value="compileReleaseRenderscript" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="name" value="compileTest" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="name" value="compileTestAidl" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="name" value="compileTestRenderscript" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="description" value="Runs all device checks on currently connected devices." />
-          <option name="name" value="connectedCheck" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="description" value="Installs and runs the tests for Build 'Debug' on connected devices." />
-          <option name="name" value="connectedInstrumentTest" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="description" value="Runs all device checks using Device Providers and Test Servers." />
-          <option name="name" value="deviceCheck" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="name" value="dexTest" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="name" value="generateDebugBuildConfig" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="name" value="generateReleaseBuildConfig" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="name" value="generateTestBuildConfig" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="description" value="Installs the Test build for the Debug build" />
-          <option name="name" value="installTest" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="name" value="mergeDebugAssets" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="name" value="mergeDebugProguardFiles" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="name" value="mergeDebugResources" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="name" value="mergeReleaseAssets" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="name" value="mergeReleaseProguardFiles" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="name" value="mergeReleaseResources" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="name" value="mergeTestAssets" />
+          <option name="name" value="packageReleaseAidl" />
         </GradleTaskDescriptor>
         <GradleTaskDescriptor>
           <option name="name" value="mergeTestResources" />
         </GradleTaskDescriptor>
         <GradleTaskDescriptor>
-          <option name="name" value="packageDebugAidl" />
+          <option name="name" value="mergeDebugAssets" />
         </GradleTaskDescriptor>
         <GradleTaskDescriptor>
-          <option name="name" value="packageDebugJar" />
+          <option name="name" value="generateTestBuildConfig" />
         </GradleTaskDescriptor>
         <GradleTaskDescriptor>
-          <option name="name" value="packageDebugLocalJar" />
+          <option name="name" value="mergeDebugResources" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="name" value="mergeReleaseProguardFiles" />
         </GradleTaskDescriptor>
         <GradleTaskDescriptor>
           <option name="name" value="packageDebugRenderscript" />
         </GradleTaskDescriptor>
         <GradleTaskDescriptor>
-          <option name="name" value="packageReleaseAidl" />
+          <option name="name" value="validateDebugSigning" />
         </GradleTaskDescriptor>
         <GradleTaskDescriptor>
-          <option name="name" value="packageReleaseJar" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="name" value="packageReleaseLocalJar" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="name" value="packageReleaseRenderscript" />
+          <option name="name" value="compileTestRenderscript" />
         </GradleTaskDescriptor>
         <GradleTaskDescriptor>
           <option name="name" value="packageTest" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="name" value="prepareDebugDependencies" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="name" value="prepareReleaseDependencies" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="name" value="prepareTestDependencies" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="name" value="processDebugJavaRes" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="name" value="processDebugManifest" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="name" value="processDebugResources" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="name" value="processReleaseJavaRes" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="name" value="processReleaseManifest" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="name" value="processReleaseResources" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="name" value="processTestJavaRes" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="name" value="processTestResources" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="name" value="processTestTestManifest" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="description" value="Initializes a new Gradle build. [incubating]" />
-          <option name="name" value="setupBuild" />
         </GradleTaskDescriptor>
         <GradleTaskDescriptor>
           <option name="description" value="Displays the signing info for each variant" />
           <option name="name" value="signingReport" />
         </GradleTaskDescriptor>
         <GradleTaskDescriptor>
+          <option name="name" value="prepareTestDependencies" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="name" value="compileDebugRenderscript" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="description" value="Assembles all Release builds" />
+          <option name="name" value="assembleRelease" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="name" value="compileTest" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="name" value="dexTest" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="name" value="packageReleaseLocalJar" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="description" value="Assembles the Test build for the Debug build" />
+          <option name="name" value="assembleTest" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="name" value="mergeReleaseResources" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="name" value="packageDebugLocalJar" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="name" value="packageDebugJar" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="name" value="compileReleaseRenderscript" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="name" value="prepareDebugDependencies" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="name" value="processDebugResources" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="name" value="packageReleaseRenderscript" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="description" value="Initializes a new Gradle build. [incubating]" />
+          <option name="name" value="setupBuild" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="name" value="processTestResources" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="name" value="compileDebug" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="name" value="mergeReleaseAssets" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="name" value="mergeDebugProguardFiles" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="name" value="processReleaseJavaRes" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="name" value="packageReleaseJar" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
           <option name="description" value="Uninstall all applications." />
           <option name="name" value="uninstallAll" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="name" value="prepareReleaseDependencies" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="description" value="Assembles all variants of all applications and secondary packages." />
+          <option name="name" value="assemble" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="name" value="mergeTestAssets" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="name" value="processTestTestManifest" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="name" value="processDebugManifest" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="description" value="Assembles a bundle containing the library in Debug." />
+          <option name="name" value="bundleDebug" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="description" value="Deletes the build directory." />
+          <option name="name" value="clean" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="name" value="compileRelease" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="name" value="processReleaseManifest" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="description" value="Assembles a bundle containing the library in Release." />
+          <option name="name" value="bundleRelease" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="name" value="generateDebugBuildConfig" />
         </GradleTaskDescriptor>
         <GradleTaskDescriptor>
           <option name="description" value="Uninstalls the Test build for the Debug build" />
           <option name="name" value="uninstallTest" />
         </GradleTaskDescriptor>
         <GradleTaskDescriptor>
-          <option name="name" value="validateDebugSigning" />
+          <option name="description" value="Assembles and tests this project and all projects it depends on." />
+          <option name="name" value="buildNeeded" />
         </GradleTaskDescriptor>
-      </set>
+        <GradleTaskDescriptor>
+          <option name="description" value="Installs and runs the tests for Build 'Debug' on connected devices." />
+          <option name="name" value="connectedInstrumentTest" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="name" value="compileTestAidl" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="name" value="generateReleaseBuildConfig" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="name" value="packageDebugAidl" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="description" value="Assembles and tests this project." />
+          <option name="name" value="build" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="description" value="Runs all device checks on currently connected devices." />
+          <option name="name" value="connectedCheck" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="name" value="processTestJavaRes" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="name" value="compileReleaseAidl" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="description" value="Displays the Android dependencies of the project" />
+          <option name="name" value="androidDependencies" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="description" value="Runs all device checks using Device Providers and Test Servers." />
+          <option name="name" value="deviceCheck" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="name" value="compileDebugAidl" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+          <option name="name" value="buildDependents" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="description" value="Installs the Test build for the Debug build" />
+          <option name="name" value="installTest" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="description" value="Assembles all Debug builds" />
+          <option name="name" value="assembleDebug" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="name" value="processDebugJavaRes" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="description" value="Runs all checks." />
+          <option name="name" value="check" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="name" value="processReleaseResources" />
+        </GradleTaskDescriptor>
+      </list>
     </option>
     <option name="expandStates">
       <map>
@@ -397,6 +341,7 @@
         <option value="$PROJECT_DIR$/RoBDD/src/main/java/com/axxiss/robdd/steps/ViewStepdefs.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/RoBDD/build.gradle" />
+        <option value="$PROJECT_DIR$/RoBDD/src/main/java/com/axxiss/robdd/steps/package-info.java" />
       </list>
     </option>
   </component>
@@ -452,10 +397,6 @@
               <option name="myItemId" value="RoBDD" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -465,34 +406,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="RoBDD" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RoBDD" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RoBDD" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RoBDD" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RoBDD" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RoBDD-RoBDD" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -512,6 +425,20 @@
         </subPane>
         <subPane subId="Project Files" />
       </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RoBDD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RoBDD-RoBDD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -520,7 +447,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="options.lastSelected" value="reference.settingsdialog.project.gradle" />
+    <property name="options.lastSelected" value="vcs.Git" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/build.gradle" />
@@ -703,39 +630,48 @@
       <workItem from="1370134011377" duration="1012000" />
       <workItem from="1370165006423" duration="3639000" />
       <workItem from="1370184849345" duration="1405000" />
-      <workItem from="1370186791285" duration="959000" />
+      <workItem from="1370186791285" duration="1139000" />
+      <workItem from="1370383209323" duration="23000" />
+      <workItem from="1370383266308" duration="402000" />
+      <workItem from="1370469108727" duration="365000" />
+      <workItem from="1370530660700" duration="41000" />
     </task>
+    <task id="LOCAL-00001" summary="Refactored to Android new build system. There is issue with external libs">
+      <created>1370187812912</created>
+      <updated>1370187812912</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12828000" />
+    <option name="totallyTimeSpent" value="13839000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-4" width="1922" height="1085" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32870865" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32800853" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35075757" sideWeight="0.2864" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.6704" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.6704" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35058698" sideWeight="0.67129135" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34951973" sideWeight="0.67199147" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32954547" sideWeight="0.6704" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32924226" sideWeight="0.67129135" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -745,8 +681,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="myTodoPanelSettings">
       <value>
         <are-packages-shown value="false" />
@@ -782,7 +718,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored to Android new build system. There is issue with external libs" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -796,34 +732,53 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="Refactored to Android new build system. There is issue with external libs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/RoBDD/src/main/java/com/axxiss/robdd/steps/ActivityStepdefs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="13" selection-start="430" selection-end="430" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/RoBDD/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RoBDD/src/main/java/com/axxiss/robdd/steps/ActivityStepdefs.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RoBDD/src/main/java/com/axxiss/robdd/steps/ViewStepdefs.java">
+    <entry file="file://$PROJECT_DIR$/RoBDD/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RoBDD/src/main/java/com/axxiss/robdd/steps/ActivityStepdefs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RoBDD/src/main/java/com/axxiss/robdd/RoActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="122" selection-end="122" vertical-scroll-proportion="0.114503816" />
+        <state line="16" column="0" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/RoBDD/src/main/java/com/axxiss/robdd/steps/ButtonStepdefs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="3" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RoBDD/src/main/java/com/axxiss/robdd/steps/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RoBDD/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
@@ -833,11 +788,6 @@
         <state line="3" column="38" selection-start="166" selection-end="166" vertical-scroll-proportion="0.114503816">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RoBDD/src/main/java/com/axxiss/robdd/steps/ViewStepdefs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="20" selection-start="245" selection-end="245" vertical-scroll-proportion="0.22537562" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/settings.gradle">
@@ -850,39 +800,42 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RoBDD/build.gradle">
+    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="238" selection-end="238" vertical-scroll-proportion="0.26286966">
-          <folding />
-        </state>
+        <state line="2" column="30" selection-start="94" selection-end="94" vertical-scroll-proportion="0.032930844" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/RoBDD/src/main/java/com/axxiss/robdd/RoView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="27" selection-end="27" vertical-scroll-proportion="0.032930844">
+        <state line="10" column="13" selection-start="217" selection-end="217" vertical-scroll-proportion="0.3816794">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RoBDD/src/instrumentTest/java/com/axxiss/robdd/app/IntentActivity.java">
+    <entry file="file://$PROJECT_DIR$/RoBDD/src/main/java/com/axxiss/robdd/steps/package-info.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="13" selection-start="333" selection-end="333" vertical-scroll-proportion="0.18111965">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RoBDD/src/main/java/com/axxiss/robdd/steps/ButtonStepdefs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="8" selection-start="153" selection-end="153" vertical-scroll-proportion="0.34351146">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+    <entry file="file://$PROJECT_DIR$/RoBDD/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="30" selection-start="94" selection-end="94" vertical-scroll-proportion="0.032930844">
+        <state line="38" column="1" selection-start="805" selection-end="805" vertical-scroll-proportion="0.94214875">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RoBDD/src/instrumentTest/java/com/axxiss/robdd/app/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/RoBDD/src/main/java/com/axxiss/robdd/steps/ActivityStepdefs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="13" selection-start="322" selection-end="322" vertical-scroll-proportion="0.18111965">
+        <state line="18" column="13" selection-start="430" selection-end="430" vertical-scroll-proportion="0.024793388">
           <folding />
         </state>
       </provider>
